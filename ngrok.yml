@@ -1,0 +1,11 @@
+region: eu
+tunnels:
+  legacy:
+    proto: http
+    addr: legacy.dev.azk.io:7100
+  frontend:
+    proto: http
+    addr: legacy-frontend.dev.azk.io:7200
+  next:
+    proto: http
+    addr: next.dev.azk.io:7300
